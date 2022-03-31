@@ -1,0 +1,11 @@
+Sa se scrie un program prin care se creeaza o clasa de ServiciiCitire prin care se vor citi date din fisiere.
+In aceasta clasa se cere sa se creeze:
+    a. O metoda care verifica daca un fisier este gol sau nu (metoda va primi ca parametru numele/calea fisierului si va returna boolean)
+    b. O metoda care verifica daca un anumit fisier contine un anumit cuvant (metoda va primi ca parametrii numele/calea fisierului,
+    un String ce va reprezenta cuvantul cautat si va returna boolean).
+
+Se cere sa se scrie teste unitare pentru aceasta clasa (Se va creea clasa ServiciiCitireTest in pachetul corespunzator).
+Incercati sa creeati pentru fiecare metoda 2 teste (un caz pozitiv si un caz negativ).
+Sugestii:
+Initializati intr-o metoda adnotata cu @Before initializarea clasei.
+In metodele de @Test apelati metodele corespunzatoare din clasa ServiciiCitire si verificati cu assertTrue / assertFalse rezultatele.
